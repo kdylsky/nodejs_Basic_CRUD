@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New comment</title>
+</head>
+<body>
+    <h1>New Comment</h1>
+    <form action="/quotes" method="POST">
+        <section>
+            <label for="author">Enter author:</label>
+            <input type="text" placeholder="author" name="author" id="author">    
+        </section>
+        <section>
+            <label for="quote">Enter quote:</label>
+            <br>
+            <textarea type="text" cols="30" rows="5" placeholder="quote" name="quote" id="quote"></textarea>
+        </section>
+        <section>
+            <label for="korean">Enter korean:</label>
+            <br>
+            <textarea type="text" cols="30" rows="5" placeholder="korean" name="korean" id="korean"></textarea>
+        </section>
+        <button>Submit</button>
+    </form>
+    <a href="/quotes">Back to Home</a>
+</body>
+</html> 
